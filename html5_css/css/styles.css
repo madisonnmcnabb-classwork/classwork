@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
@@ -43,7 +43,16 @@ main {
     border-radius: 20px;
 }
 
+main hr {
+    color:brown;
+    border: 3px solid brown;
+}
+
 main h2 {
+    color: brown;
+    text-align: center;
+}
+main h3{
     color: brown;
     text-align: center;
 }
