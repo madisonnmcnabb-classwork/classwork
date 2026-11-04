@@ -19,6 +19,7 @@ a:hover {
 
 #container {
     background-color: aquamarine;
+    width: 50%;
     margin: 20px auto;
     border:4px solid black;
     padding: 20px;
