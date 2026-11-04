@@ -118,3 +118,14 @@ footer {
 hr {
     border: 1px solid brown;
 }
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid brown; 
+}
+
+.beatles_content {
+    text-align: center;
+}
