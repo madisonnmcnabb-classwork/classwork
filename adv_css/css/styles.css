@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: green;
 }
 
 img {
@@ -9,7 +9,7 @@ img {
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -18,7 +18,7 @@ a:hover {
 }
 
 #container {
-    background-color: aquamarine;
+    background-color: white;
     width: 50%;
     margin: 20px auto;
     border:4px solid black;
@@ -29,24 +29,23 @@ a:hover {
 header {
     text-align: center;
     padding: 40px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 }
 
 header h1 {
     font-size: 50px;
-    color: blueviolet;
+    color: black;
     text-shadow: 2px 2px 2px black;
 }
 
 nav {
     text-align: center;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    display: inline;
 }
 
 nav li {
@@ -57,7 +56,7 @@ nav li a {
     display: block;
     background-color: bisque;
     color: black;
-    width: 2000px;
+    width: 200px;
     height: 40px;
     line-height: 40px;
     font-size: 25px;
@@ -68,7 +67,7 @@ nav li a {
 
 nav li a:hover {
     color: brown;
-    background-color: white;
+    background-color: black;
 }
 
 main h2 {
@@ -82,7 +81,7 @@ main h2 {
 
 section, aside {
     border-radius: 20px;
-    border: 2px solid purple;
+    border: 2px solid black;
     margin: 20px;
     padding: 20px;
 }
@@ -93,11 +92,12 @@ section {
 
 aside {
     width: 25%;
+    height: 500px;
 }
 
 section img {
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid black;
     width: 75%;
 }
 
@@ -108,13 +108,13 @@ footer {
 
 .img_style {
     width: 75%;
-    border: 2px solid red;
+    border: 2px solid brown;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px purple
+    box-shadow: 2px 2px 5px black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 hr {
-    border: 1px solid orange;
+    border: 1px solid brown;
 }
