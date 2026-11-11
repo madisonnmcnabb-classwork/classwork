@@ -1,0 +1,161 @@
+/* Global Styles */
+
+body {
+    background-color: #F6CA94;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+#container {
+    padding: 10px;
+    border: 4px solid brown;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #ECBA93;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+nav li a:hover {
+    background-color: brown;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main_content {
+    padding: 10px;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+.col img {
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+footer {
+    padding: 40px;
+    text-align: center; 
+}
+
+iframe {
+    display: block;
+    margin: 20px;
+    width: 65%;
+    height: 450px;
+}
+
+.contact_content {
+    text-align: center;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+
+    nav {
+        padding: 10px 0;
+        border-bottom: 4px solid brown;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+    }
+}
+
+main {
+    margin-top: 10px;
+}
+
+.col img {
+    width: 65%;
+    
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+
+    #container {
+    width: 65%;
+    margin: 20px auto;
+    background-color: #FFF0D2;
+    }
+
+    .Page4 {
+        display: flex;
+    }
+
+    .col {
+        border: 2px solid brown;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .col img {
+        width: 100%
+    }
+
+    .multi_col {
+        display: flex;
+    }
+
+    section,
+    aside {
+        border: 2px solid brown;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .home_section {
+        width: 70%;
+    }
+
+    .home_aside {
+        width: 30%;
+    }
+}
